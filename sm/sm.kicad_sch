@@ -163,6 +163,187 @@
 				)
 			)
 		)
+		(symbol "Device:R_Shunt"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Shunt"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Shunt resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res shunt resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*Shunt*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Shunt_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Shunt_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:MBR0530"
 			(pin_numbers hide)
 			(pin_names
@@ -1436,178 +1617,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "fake:R-4"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "R-4"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R-4_0_1"
-				(circle
-					(center -2.54 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -0.889 1.27) (xy -0.254 -1.27) (xy 0.381 1.27) (xy 1.016 -1.27) (xy 1.651 0)
-						(xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "R-4_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7997,16 +8006,6 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 107.95) (xy 563.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a9f9a1b-bb70-48d4-86e3-25d3f89e88bc")
-	)
-	(wire
-		(pts
 			(xy 295.91 257.81) (xy 314.96 257.81)
 		)
 		(stroke
@@ -8037,7 +8036,7 @@
 	)
 	(wire
 		(pts
-			(xy 500.38 48.26) (xy 500.38 46.99)
+			(xy 500.38 48.26) (xy 500.38 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8214,6 +8213,16 @@
 			(type default)
 		)
 		(uuid "3568c6f3-8f67-40f7-b12c-623fba0ff442")
+	)
+	(wire
+		(pts
+			(xy 561.34 57.15) (xy 563.88 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3622c7a3-b6c0-4286-83de-1280b2e670c8")
 	)
 	(wire
 		(pts
@@ -9417,6 +9426,16 @@
 	)
 	(wire
 		(pts
+			(xy 561.34 107.95) (xy 563.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ec7d4c-c0b7-4998-9d63-134d23a41999")
+	)
+	(wire
+		(pts
 			(xy 328.93 151.13) (xy 328.93 156.21)
 		)
 		(stroke
@@ -9487,16 +9506,6 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 62.23) (xy 560.07 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2bbe44-a1d7-41e2-af2d-2de24acc752a")
-	)
-	(wire
-		(pts
 			(xy 584.2 92.71) (xy 589.28 92.71)
 		)
 		(stroke
@@ -9514,16 +9523,6 @@
 			(type default)
 		)
 		(uuid "6ae52148-4fb8-446e-bb6a-2cc1f1fa72b6")
-	)
-	(wire
-		(pts
-			(xy 563.88 57.15) (xy 560.07 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c09087b-dd78-45a8-b00c-05cea7dba83d")
 	)
 	(wire
 		(pts
@@ -9654,6 +9653,16 @@
 			(type default)
 		)
 		(uuid "70fffea9-f230-4510-9d86-2848c2c54c0d")
+	)
+	(wire
+		(pts
+			(xy 561.34 113.03) (xy 563.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7102c676-ec03-406d-b584-694ab5bbb0cc")
 	)
 	(wire
 		(pts
@@ -10374,6 +10383,16 @@
 			(type default)
 		)
 		(uuid "9305505d-9a31-4a44-b06b-abc98811efda")
+	)
+	(wire
+		(pts
+			(xy 508 30.48) (xy 508 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931ab2f5-3ec3-4122-a9c3-2a8a4f3ba6c5")
 	)
 	(wire
 		(pts
@@ -12007,16 +12026,6 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 113.03) (xy 560.07 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccc0aab2-e3d0-4808-abf4-42bf9bbf92d0")
-	)
-	(wire
-		(pts
 			(xy 257.81 121.92) (xy 275.59 121.92)
 		)
 		(stroke
@@ -12254,6 +12263,16 @@
 			(type default)
 		)
 		(uuid "d5871a37-e69b-41f0-ab0e-a6cce852666c")
+	)
+	(wire
+		(pts
+			(xy 508 49.53) (xy 508 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6134278-9aca-49b5-904d-242d1b608dd9")
 	)
 	(wire
 		(pts
@@ -12984,6 +13003,16 @@
 			(type default)
 		)
 		(uuid "f73d6e1a-86dc-4a74-abdc-bd83808f1e2a")
+	)
+	(wire
+		(pts
+			(xy 561.34 62.23) (xy 563.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ffed03-969e-42b6-b791-fe7727abb117")
 	)
 	(wire
 		(pts
@@ -15045,7 +15074,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C15742"
+		(property "LCSC" "C15742"
 			(at 190.5 284.48 0)
 			(effects
 				(font
@@ -15315,7 +15344,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C285099"
 			(at 421.64 455.93 0)
 			(effects
 				(font
@@ -15324,7 +15353,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603B103K250NT"
 			(at 421.64 455.93 0)
 			(effects
 				(font
@@ -15399,7 +15428,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -15408,7 +15437,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1003T5E"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -15483,7 +15512,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7461363"
 			(at 142.24 39.37 0)
 			(effects
 				(font
@@ -15492,7 +15521,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CXP0630-220M-AG(22uh)"
 			(at 142.24 39.37 0)
 			(effects
 				(font
@@ -15567,7 +15596,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5251182"
 			(at 702.31 448.31 0)
 			(effects
 				(font
@@ -15576,7 +15605,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "B2B-PH-K-S-GW"
 			(at 702.31 448.31 0)
 			(effects
 				(font
@@ -15715,7 +15744,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C31850"
 			(at 708.66 54.61 0)
 			(effects
 				(font
@@ -15724,7 +15753,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF2202T5E"
 			(at 708.66 54.61 0)
 			(effects
 				(font
@@ -15799,7 +15828,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C95968"
 			(at 739.14 222.25 0)
 			(effects
 				(font
@@ -15808,7 +15837,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "SDNT2012X103F3950FTF"
 			(at 739.14 222.25 0)
 			(effects
 				(font
@@ -15947,7 +15976,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 468.63 91.44 0)
 			(effects
 				(font
@@ -15956,7 +15985,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 468.63 91.44 0)
 			(effects
 				(font
@@ -16031,7 +16060,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 789.94 46.99 0)
 			(effects
 				(font
@@ -16040,7 +16069,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 789.94 46.99 0)
 			(effects
 				(font
@@ -16267,7 +16296,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C285099"
 			(at 113.03 278.13 0)
 			(effects
 				(font
@@ -16276,7 +16305,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603B103K250NT"
 			(at 113.03 278.13 0)
 			(effects
 				(font
@@ -16352,7 +16381,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19171392"
 			(at 104.14 359.41 0)
 			(effects
 				(font
@@ -16361,7 +16390,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "YLED0603YG"
 			(at 104.14 359.41 0)
 			(effects
 				(font
@@ -16436,7 +16465,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C107034"
 			(at 118.11 226.06 0)
 			(effects
 				(font
@@ -16445,7 +16474,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0603JRNPO9BN120"
 			(at 118.11 226.06 0)
 			(effects
 				(font
@@ -16520,7 +16549,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C713511"
 			(at 436.88 68.58 0)
 			(effects
 				(font
@@ -16529,7 +16558,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "TCC0805X5R105M250FT"
 			(at 436.88 68.58 0)
 			(effects
 				(font
@@ -16604,7 +16633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 259.08 312.42 0)
 			(effects
 				(font
@@ -16613,7 +16642,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 259.08 312.42 0)
 			(effects
 				(font
@@ -16688,7 +16717,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 273.05 309.88 0)
 			(effects
 				(font
@@ -16697,7 +16726,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 273.05 309.88 0)
 			(effects
 				(font
@@ -16755,7 +16784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8539ARZ-REEL7_C154930.pdf"
 			(at 746.76 83.82 0)
 			(effects
 				(font
@@ -16772,7 +16801,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C154930"
 			(at 746.76 83.82 0)
 			(effects
 				(font
@@ -16781,7 +16810,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "AD8539ARZ-REEL7"
 			(at 746.76 83.82 0)
 			(effects
 				(font
@@ -16874,7 +16903,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22977"
 			(at 491.49 152.4 0)
 			(effects
 				(font
@@ -16883,7 +16912,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF200KT5E"
 			(at 491.49 152.4 0)
 			(effects
 				(font
@@ -17021,7 +17050,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C7529415"
+		(property "LCSC" "C7529415"
 			(at 92.71 105.41 0)
 			(effects
 				(font
@@ -17105,7 +17134,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C285099"
 			(at 285.75 227.33 0)
 			(effects
 				(font
@@ -17114,7 +17143,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603B103K250NT"
 			(at 285.75 227.33 0)
 			(effects
 				(font
@@ -17189,7 +17218,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 295.91 45.72 0)
 			(effects
 				(font
@@ -17198,7 +17227,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 295.91 45.72 0)
 			(effects
 				(font
@@ -17273,7 +17302,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C163508"
 			(at 717.55 157.48 0)
 			(effects
 				(font
@@ -17282,7 +17311,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CL10C102JB8NNNC"
 			(at 717.55 157.48 0)
 			(effects
 				(font
@@ -17587,7 +17616,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C92834"
 			(at 119.38 130.81 0)
 			(effects
 				(font
@@ -17596,7 +17625,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "TMK325BJ106KN-T "
 			(at 119.38 130.81 0)
 			(effects
 				(font
@@ -17734,7 +17763,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 295.91 302.26 0)
 			(effects
 				(font
@@ -17743,7 +17772,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 295.91 302.26 0)
 			(effects
 				(font
@@ -17882,7 +17911,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 318.77 248.92 0)
 			(effects
 				(font
@@ -17891,7 +17920,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 318.77 248.92 0)
 			(effects
 				(font
@@ -18032,7 +18061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031228_Infineon-Technologies-IPT010N08NM5ATMA1_C3288766.pdf"
 			(at 506.73 95.25 0)
 			(effects
 				(font
@@ -18049,7 +18078,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3288766"
 			(at 506.73 95.25 0)
 			(effects
 				(font
@@ -18058,7 +18087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "IPT010N08NM5ATMA1"
 			(at 506.73 95.25 0)
 			(effects
 				(font
@@ -18326,7 +18355,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C163508"
 			(at 717.55 88.9 0)
 			(effects
 				(font
@@ -18335,7 +18364,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CL10C102JB8NNNC"
 			(at 717.55 88.9 0)
 			(effects
 				(font
@@ -18474,7 +18503,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C31850"
 			(at 708.66 88.9 0)
 			(effects
 				(font
@@ -18483,7 +18512,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF2202T5E"
 			(at 708.66 88.9 0)
 			(effects
 				(font
@@ -18629,7 +18658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031228_Infineon-Technologies-IPT010N08NM5ATMA1_C3288766.pdf"
 			(at 506.73 107.95 0)
 			(effects
 				(font
@@ -18646,7 +18675,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3288766"
 			(at 506.73 107.95 0)
 			(effects
 				(font
@@ -18655,7 +18684,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "IPT010N08NM5ATMA1"
 			(at 506.73 107.95 0)
 			(effects
 				(font
@@ -18733,7 +18762,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22936"
 			(at 276.86 275.59 0)
 			(effects
 				(font
@@ -18742,7 +18771,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF100KT5E"
 			(at 276.86 275.59 0)
 			(effects
 				(font
@@ -18817,7 +18846,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 739.14 208.28 0)
 			(effects
 				(font
@@ -18826,7 +18855,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1002T5E"
 			(at 739.14 208.28 0)
 			(effects
 				(font
@@ -18884,7 +18913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809151118_Texas-Instruments-TPS61040DBVR_C7722.pdf"
 			(at 93.98 119.38 0)
 			(effects
 				(font
@@ -18910,7 +18939,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7722"
 			(at 93.98 119.38 0)
 			(effects
 				(font
@@ -18919,7 +18948,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "TPS61040DBVR"
 			(at 93.98 119.38 0)
 			(effects
 				(font
@@ -19011,96 +19040,6 @@
 			(project "sm"
 				(path "/5e26f38c-e19f-40c5-b740-c884403cb704"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fake:R-4")
-		(at 557.53 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3126a37a-4e8e-4b02-b183-e0b8390b977f")
-		(property "Reference" "R43"
-			(at 552.45 62.23 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "0.0005 1%"
-			(at 548.64 58.42 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
-			(at 557.53 59.69 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 557.53 59.69 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 557.53 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C469426"
-			(at 557.53 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR PT" " ASR-M-3-0.5F"
-			(at 557.53 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d938e2a1-18a0-4319-ac82-8743df5cb7be")
-		)
-		(pin "2"
-			(uuid "ed8501ad-a4ff-47b1-8ad1-21710f2ff1a5")
-		)
-		(pin "3"
-			(uuid "64dec97c-4de2-465c-a465-702c38583e31")
-		)
-		(pin "4"
-			(uuid "48f85418-0716-4e30-81e8-644f22772623")
-		)
-		(instances
-			(project "sm"
-				(path "/5e26f38c-e19f-40c5-b740-c884403cb704"
-					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -19284,7 +19223,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 306.07 45.72 0)
 			(effects
 				(font
@@ -19293,7 +19232,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 306.07 45.72 0)
 			(effects
 				(font
@@ -19368,7 +19307,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C31850"
 			(at 708.66 157.48 0)
 			(effects
 				(font
@@ -19377,7 +19316,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF2202T5E"
 			(at 708.66 157.48 0)
 			(effects
 				(font
@@ -19452,7 +19391,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C107041"
 			(at 146.05 58.42 0)
 			(effects
 				(font
@@ -19461,7 +19400,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0603JRNPO9BN181"
 			(at 146.05 58.42 0)
 			(effects
 				(font
@@ -19536,7 +19475,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6120033"
 			(at 529.59 205.74 0)
 			(effects
 				(font
@@ -19545,7 +19484,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CGA1210X7R475K101RT"
 			(at 529.59 205.74 0)
 			(effects
 				(font
@@ -19684,7 +19623,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 246.38 289.56 0)
 			(effects
 				(font
@@ -19693,7 +19632,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 246.38 289.56 0)
 			(effects
 				(font
@@ -19768,7 +19707,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C153036"
 			(at 39.37 46.99 0)
 			(effects
 				(font
@@ -19777,7 +19716,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "FS32X225K101EGG"
 			(at 39.37 46.99 0)
 			(effects
 				(font
@@ -19852,7 +19791,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 118.11 240.03 0)
 			(effects
 				(font
@@ -19861,7 +19800,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 118.11 240.03 0)
 			(effects
 				(font
@@ -20086,7 +20025,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 156.21 130.81 0)
 			(effects
 				(font
@@ -20095,7 +20034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 156.21 130.81 0)
 			(effects
 				(font
@@ -20233,7 +20172,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25819"
 			(at 629.92 334.01 0)
 			(effects
 				(font
@@ -20242,7 +20181,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF4702T5E"
 			(at 629.92 334.01 0)
 			(effects
 				(font
@@ -20317,7 +20256,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 285.75 269.24 0)
 			(effects
 				(font
@@ -20326,7 +20265,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 285.75 269.24 0)
 			(effects
 				(font
@@ -20464,7 +20403,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22977"
 			(at 482.6 157.48 0)
 			(effects
 				(font
@@ -20473,7 +20412,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF200KT5E"
 			(at 482.6 157.48 0)
 			(effects
 				(font
@@ -20548,7 +20487,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22977"
 			(at 482.6 53.34 0)
 			(effects
 				(font
@@ -20557,7 +20496,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF200KT5E"
 			(at 482.6 53.34 0)
 			(effects
 				(font
@@ -20696,7 +20635,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 580.39 41.91 0)
 			(effects
 				(font
@@ -20705,7 +20644,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 580.39 41.91 0)
 			(effects
 				(font
@@ -20780,7 +20719,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C713511"
 			(at 436.88 172.72 0)
 			(effects
 				(font
@@ -20789,7 +20728,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "TCC0805X5R105M250FT"
 			(at 436.88 172.72 0)
 			(effects
 				(font
@@ -20927,7 +20866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 328.93 147.32 0)
 			(effects
 				(font
@@ -20936,7 +20875,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 328.93 147.32 0)
 			(effects
 				(font
@@ -21011,7 +20950,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C36576"
 			(at 132.08 43.18 0)
 			(effects
 				(font
@@ -21020,7 +20959,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0805B222K500NT"
 			(at 132.08 43.18 0)
 			(effects
 				(font
@@ -21141,7 +21080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-SN65HVD256DR_C132551.pdf"
 			(at 643.89 450.85 0)
 			(effects
 				(font
@@ -21158,7 +21097,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C132551"
 			(at 643.89 450.85 0)
 			(effects
 				(font
@@ -21167,7 +21106,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "SN65HVD256DR"
 			(at 643.89 450.85 0)
 			(effects
 				(font
@@ -21260,7 +21199,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 436.88 58.42 0)
 			(effects
 				(font
@@ -21269,7 +21208,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 436.88 58.42 0)
 			(effects
 				(font
@@ -21408,7 +21347,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28233"
 			(at 74.93 46.99 0)
 			(effects
 				(font
@@ -21417,7 +21356,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CL21B104KCFNNNE"
 			(at 74.93 46.99 0)
 			(effects
 				(font
@@ -21492,7 +21431,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C107041"
 			(at 144.78 120.65 0)
 			(effects
 				(font
@@ -21501,7 +21440,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0603JRNPO9BN181"
 			(at 144.78 120.65 0)
 			(effects
 				(font
@@ -21622,7 +21561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8418AWBRZ-RL_C462197.pdf"
 			(at 574.04 59.69 0)
 			(effects
 				(font
@@ -21639,7 +21578,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C495342"
 			(at 574.04 59.69 0)
 			(effects
 				(font
@@ -21648,7 +21587,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "AD8418WBRZ-RL"
 			(at 574.04 59.69 0)
 			(effects
 				(font
@@ -21741,7 +21680,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C92762"
 			(at 275.59 118.11 0)
 			(effects
 				(font
@@ -21750,7 +21689,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "EMK212B7475KG-T"
 			(at 275.59 118.11 0)
 			(effects
 				(font
@@ -21825,7 +21764,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23178"
 			(at 701.04 81.28 0)
 			(effects
 				(font
@@ -21834,7 +21773,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF4703T5E"
 			(at 701.04 81.28 0)
 			(effects
 				(font
@@ -21909,7 +21848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 436.88 447.04 0)
 			(effects
 				(font
@@ -21918,7 +21857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1002T5E"
 			(at 436.88 447.04 0)
 			(effects
 				(font
@@ -22167,7 +22106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001181534_Texas-Instruments-UCC27211AQDDARQ1_C485921.pdf"
 			(at 453.39 49.53 0)
 			(effects
 				(font
@@ -22184,7 +22123,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C485921"
 			(at 453.39 49.53 0)
 			(effects
 				(font
@@ -22193,7 +22132,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "UCC27211AQDDARQ1"
 			(at 453.39 49.53 0)
 			(effects
 				(font
@@ -22349,7 +22288,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C285099"
 			(at 285.75 234.95 0)
 			(effects
 				(font
@@ -22358,7 +22297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603B103K250NT"
 			(at 285.75 234.95 0)
 			(effects
 				(font
@@ -22384,7 +22323,7 @@
 	)
 	(symbol
 		(lib_id "pmc-rescue:IPT007N06N")
-		(at 506.73 44.45 0)
+		(at 506.73 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22392,7 +22331,7 @@
 		(dnp no)
 		(uuid "5e300fe1-9bc1-4219-8ee8-7d9e8ec80911")
 		(property "Reference" "Q1"
-			(at 511.81 45.72 0)
+			(at 511.81 44.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22400,7 +22339,7 @@
 			)
 		)
 		(property "Value" "IPT010N08NM5"
-			(at 518.16 41.91 0)
+			(at 518.16 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22408,7 +22347,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1_ThermalVias"
-			(at 506.73 44.45 0)
+			(at 506.73 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22416,8 +22355,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 506.73 44.45 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031228_Infineon-Technologies-IPT010N08NM5ATMA1_C3288766.pdf"
+			(at 506.73 43.18 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22425,7 +22364,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 506.73 44.45 0)
+			(at 506.73 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22433,8 +22372,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 506.73 44.45 0)
+		(property "LCSC" "C3288766"
+			(at 506.73 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22442,8 +22381,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
-			(at 506.73 44.45 0)
+		(property "MFR PT" "IPT010N08NM5ATMA1"
+			(at 506.73 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22583,7 +22522,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 273.05 314.96 0)
 			(effects
 				(font
@@ -22592,7 +22531,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 273.05 314.96 0)
 			(effects
 				(font
@@ -22731,7 +22670,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5189825"
 			(at 204.47 46.99 0)
 			(effects
 				(font
@@ -22740,7 +22679,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CS3225X7R476K100NRL"
 			(at 204.47 46.99 0)
 			(effects
 				(font
@@ -23133,7 +23072,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C265289"
 			(at 458.47 412.75 0)
 			(effects
 				(font
@@ -23142,7 +23081,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "B4B-PH-K(LF)(SN)"
 			(at 458.47 412.75 0)
 			(effects
 				(font
@@ -23223,7 +23162,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 637.54 344.17 0)
 			(effects
 				(font
@@ -23232,7 +23171,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 637.54 344.17 0)
 			(effects
 				(font
@@ -23307,7 +23246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C92762"
 			(at 257.81 118.11 0)
 			(effects
 				(font
@@ -23316,7 +23255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "EMK212B7475KG-T"
 			(at 257.81 118.11 0)
 			(effects
 				(font
@@ -23391,7 +23330,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 468.63 144.78 0)
 			(effects
 				(font
@@ -23400,7 +23339,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 468.63 144.78 0)
 			(effects
 				(font
@@ -23475,7 +23414,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 789.94 115.57 0)
 			(effects
 				(font
@@ -23484,7 +23423,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 789.94 115.57 0)
 			(effects
 				(font
@@ -23623,7 +23562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C92762"
 			(at 293.37 118.11 0)
 			(effects
 				(font
@@ -23632,7 +23571,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "EMK212B7475KG-T"
 			(at 293.37 118.11 0)
 			(effects
 				(font
@@ -23770,7 +23709,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157993"
 			(at 458.47 339.09 0)
 			(effects
 				(font
@@ -23779,7 +23718,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "B5B-PH-K-S(LF)(SN)"
 			(at 458.47 339.09 0)
 			(effects
 				(font
@@ -23863,7 +23802,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C285099"
 			(at 421.64 481.33 0)
 			(effects
 				(font
@@ -23872,7 +23811,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603B103K250NT"
 			(at 421.64 481.33 0)
 			(effects
 				(font
@@ -24202,7 +24141,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23178"
 			(at 701.04 149.86 0)
 			(effects
 				(font
@@ -24211,7 +24150,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF4703T5E"
 			(at 701.04 149.86 0)
 			(effects
 				(font
@@ -24413,7 +24352,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C285099"
 			(at 758.19 222.25 0)
 			(effects
 				(font
@@ -24422,7 +24361,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603B103K250NT"
 			(at 758.19 222.25 0)
 			(effects
 				(font
@@ -24497,7 +24436,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 311.15 147.32 0)
 			(effects
 				(font
@@ -24506,7 +24445,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 311.15 147.32 0)
 			(effects
 				(font
@@ -24581,7 +24520,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25967"
 			(at 133.35 64.77 0)
 			(effects
 				(font
@@ -24590,7 +24529,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3162T5E"
 			(at 133.35 64.77 0)
 			(effects
 				(font
@@ -24775,7 +24714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8418AWBRZ-RL_C462197.pdf"
 			(at 574.04 110.49 0)
 			(effects
 				(font
@@ -24792,7 +24731,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C495342"
 			(at 574.04 110.49 0)
 			(effects
 				(font
@@ -24801,7 +24740,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "AD8418WBRZ-RL"
 			(at 574.04 110.49 0)
 			(effects
 				(font
@@ -24894,7 +24833,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 327.66 290.83 0)
 			(effects
 				(font
@@ -24903,7 +24842,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 327.66 290.83 0)
 			(effects
 				(font
@@ -24978,7 +24917,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 436.88 162.56 0)
 			(effects
 				(font
@@ -24987,7 +24926,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 436.88 162.56 0)
 			(effects
 				(font
@@ -25062,7 +25001,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23178"
 			(at 701.04 115.57 0)
 			(effects
 				(font
@@ -25071,7 +25010,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF4703T5E"
 			(at 701.04 115.57 0)
 			(effects
 				(font
@@ -25147,7 +25086,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C477928"
+		(property "LCSC" "C477928"
 			(at 115.57 48.26 0)
 			(effects
 				(font
@@ -25335,7 +25274,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6120033"
 			(at 509.27 205.74 0)
 			(effects
 				(font
@@ -25344,7 +25283,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CGA1210X7R475K101RT"
 			(at 509.27 205.74 0)
 			(effects
 				(font
@@ -25370,7 +25309,7 @@
 	)
 	(symbol
 		(lib_id "fake:+48V")
-		(at 508 38.1 0)
+		(at 508 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25378,7 +25317,7 @@
 		(dnp no)
 		(uuid "756ab1d5-ee54-4b01-83bf-e3f93e635eda")
 		(property "Reference" "#PWR053"
-			(at 508 35.814 0)
+			(at 508 28.194 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -25387,7 +25326,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 508 32.4866 0)
+			(at 508 24.8666 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25395,7 +25334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 508 38.1 0)
+			(at 508 30.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25403,7 +25342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 508 38.1 0)
+			(at 508 30.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25411,7 +25350,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 508 38.1 0)
+			(at 508 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25426,96 +25365,6 @@
 			(project "sm"
 				(path "/5e26f38c-e19f-40c5-b740-c884403cb704"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fake:R-4")
-		(at 557.53 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7677dc82-8371-45e1-9186-230a202f420b")
-		(property "Reference" "R44"
-			(at 552.45 113.03 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "0.0005 1%"
-			(at 548.64 109.22 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
-			(at 557.53 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 557.53 110.49 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 557.53 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 557.53 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR PT" ""
-			(at 557.53 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfc23868-37ce-4b2a-84ba-ce8085535909")
-		)
-		(pin "2"
-			(uuid "c74a87d3-9917-4570-bb83-3ce808f16317")
-		)
-		(pin "3"
-			(uuid "9361f6bc-a111-4336-9adb-623d2eb488ce")
-		)
-		(pin "4"
-			(uuid "d1a1586f-0f90-4d78-837a-19472f77beca")
-		)
-		(instances
-			(project "sm"
-				(path "/5e26f38c-e19f-40c5-b740-c884403cb704"
-					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -25572,7 +25421,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 318.77 265.43 0)
 			(effects
 				(font
@@ -25581,7 +25430,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 318.77 265.43 0)
 			(effects
 				(font
@@ -25639,7 +25488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031228_Infineon-Technologies-IPT010N08NM5ATMA1_C3288766.pdf"
 			(at 506.73 161.29 0)
 			(effects
 				(font
@@ -25656,7 +25505,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3288766"
 			(at 506.73 161.29 0)
 			(effects
 				(font
@@ -25665,7 +25514,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "IPT010N08NM5ATMA1"
 			(at 506.73 161.29 0)
 			(effects
 				(font
@@ -25934,7 +25783,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 57.15 132.08 0)
 			(effects
 				(font
@@ -25943,7 +25792,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 57.15 132.08 0)
 			(effects
 				(font
@@ -26081,7 +25930,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22793"
 			(at 144.78 132.08 0)
 			(effects
 				(font
@@ -26090,7 +25939,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1372T5E"
 			(at 144.78 132.08 0)
 			(effects
 				(font
@@ -26165,7 +26014,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C495261"
 			(at 458.47 375.92 0)
 			(effects
 				(font
@@ -26174,7 +26023,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "B6B-PH-K-S-GW"
 			(at 458.47 375.92 0)
 			(effects
 				(font
@@ -26324,7 +26173,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 275.59 147.32 0)
 			(effects
 				(font
@@ -26333,7 +26182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 275.59 147.32 0)
 			(effects
 				(font
@@ -26408,7 +26257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22809"
 			(at 95.25 55.88 0)
 			(effects
 				(font
@@ -26417,7 +26266,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1502T5E"
 			(at 95.25 55.88 0)
 			(effects
 				(font
@@ -26681,7 +26530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1779"
 			(at 468.63 82.55 0)
 			(effects
 				(font
@@ -26690,7 +26539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CL21A475KAQNNNE"
 			(at 468.63 82.55 0)
 			(effects
 				(font
@@ -26828,7 +26677,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 436.88 109.22 0)
 			(effects
 				(font
@@ -26837,7 +26686,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 436.88 109.22 0)
 			(effects
 				(font
@@ -26912,7 +26761,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5251182"
 			(at 668.02 327.66 0)
 			(effects
 				(font
@@ -26921,7 +26770,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "B2B-PH-K-S-GW"
 			(at 668.02 327.66 0)
 			(effects
 				(font
@@ -26996,7 +26845,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 429.26 455.93 0)
 			(effects
 				(font
@@ -27005,7 +26854,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1002T5E"
 			(at 429.26 455.93 0)
 			(effects
 				(font
@@ -27080,7 +26929,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C2835446"
+		(property "LCSC" "C2835446"
 			(at 641.35 327.66 0)
 			(effects
 				(font
@@ -27167,7 +27016,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C285099"
 			(at 162.56 237.49 0)
 			(effects
 				(font
@@ -27176,7 +27025,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603B103K250NT"
 			(at 162.56 237.49 0)
 			(effects
 				(font
@@ -27251,7 +27100,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C265289"
 			(at 458.47 265.43 0)
 			(effects
 				(font
@@ -27260,7 +27109,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "B4B-PH-K(LF)(SN)"
 			(at 458.47 265.43 0)
 			(effects
 				(font
@@ -27285,6 +27134,100 @@
 			(project "sm"
 				(path "/5e26f38c-e19f-40c5-b740-c884403cb704"
 					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Shunt")
+		(at 557.53 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "975cab4b-5daa-43d7-9c4a-f2fe745a3f3a")
+		(property "Reference" "R44"
+			(at 554.99 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.0005 1%"
+			(at 554.99 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
+			(at 555.752 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 557.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 557.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C469426"
+			(at 557.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PT" "ASR-M-3-0.5F"
+			(at 557.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3bd85238-7289-427b-b821-d3e2f2fffb31")
+		)
+		(pin "2"
+			(uuid "0ddf9472-ebc3-4145-87cd-bd7b51592d8f")
+		)
+		(pin "1"
+			(uuid "71603bf7-fde4-42fe-b74c-1f309bc403ab")
+		)
+		(pin "4"
+			(uuid "04860e49-7870-43e8-9c4f-15824b38d8dc")
+		)
+		(instances
+			(project "sm"
+				(path "/5e26f38c-e19f-40c5-b740-c884403cb704"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -27341,7 +27284,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C107034"
 			(at 133.35 226.06 0)
 			(effects
 				(font
@@ -27350,7 +27293,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0603JRNPO9BN120"
 			(at 133.35 226.06 0)
 			(effects
 				(font
@@ -27425,7 +27368,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 144.78 64.77 0)
 			(effects
 				(font
@@ -27434,7 +27377,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1003T5E"
 			(at 144.78 64.77 0)
 			(effects
 				(font
@@ -27509,7 +27452,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1779"
 			(at 468.63 135.89 0)
 			(effects
 				(font
@@ -27518,7 +27461,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CL21A475KAQNNNE"
 			(at 468.63 135.89 0)
 			(effects
 				(font
@@ -27593,7 +27536,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C285099"
 			(at 285.75 242.57 0)
 			(effects
 				(font
@@ -27602,7 +27545,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603B103K250NT"
 			(at 285.75 242.57 0)
 			(effects
 				(font
@@ -27804,7 +27747,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 232.41 341.63 0)
 			(effects
 				(font
@@ -27813,7 +27756,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1002T5E"
 			(at 232.41 341.63 0)
 			(effects
 				(font
@@ -28079,7 +28022,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C713511"
 			(at 626.11 474.98 0)
 			(effects
 				(font
@@ -28088,7 +28031,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "TCC0805X5R105M250FT"
 			(at 626.11 474.98 0)
 			(effects
 				(font
@@ -28163,7 +28106,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C713511"
 			(at 171.45 46.99 0)
 			(effects
 				(font
@@ -28172,7 +28115,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "TCC0805X5R105M250FT"
 			(at 171.45 46.99 0)
 			(effects
 				(font
@@ -28565,7 +28508,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C713511"
 			(at 436.88 119.38 0)
 			(effects
 				(font
@@ -28574,7 +28517,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "TCC0805X5R105M250FT"
 			(at 436.88 119.38 0)
 			(effects
 				(font
@@ -28649,7 +28592,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 429.26 481.33 0)
 			(effects
 				(font
@@ -28658,7 +28601,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1002T5E"
 			(at 429.26 481.33 0)
 			(effects
 				(font
@@ -28733,7 +28676,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5251182"
 			(at 458.47 289.56 0)
 			(effects
 				(font
@@ -28742,7 +28685,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "B2B-PH-K-S-GW"
 			(at 458.47 289.56 0)
 			(effects
 				(font
@@ -28817,7 +28760,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C92762"
 			(at 39.37 132.08 0)
 			(effects
 				(font
@@ -28826,7 +28769,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "EMK212B7475KG-T"
 			(at 39.37 132.08 0)
 			(effects
 				(font
@@ -29028,7 +28971,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 133.35 320.04 0)
 			(effects
 				(font
@@ -29037,7 +28980,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 133.35 320.04 0)
 			(effects
 				(font
@@ -29112,7 +29055,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 285.75 254 0)
 			(effects
 				(font
@@ -29121,7 +29064,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 285.75 254 0)
 			(effects
 				(font
@@ -29196,7 +29139,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22936"
 			(at 95.25 293.37 0)
 			(effects
 				(font
@@ -29205,7 +29148,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF100KT5E"
 			(at 95.25 293.37 0)
 			(effects
 				(font
@@ -29280,7 +29223,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23178"
 			(at 726.44 74.93 0)
 			(effects
 				(font
@@ -29289,7 +29232,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF4703T5E"
 			(at 726.44 74.93 0)
 			(effects
 				(font
@@ -29364,7 +29307,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6120033"
 			(at 549.91 205.74 0)
 			(effects
 				(font
@@ -29373,7 +29316,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CGA1210X7R475K101RT"
 			(at 549.91 205.74 0)
 			(effects
 				(font
@@ -29512,7 +29455,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C265289"
 			(at 458.47 448.31 0)
 			(effects
 				(font
@@ -29521,7 +29464,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "B4B-PH-K(LF)(SN)"
 			(at 458.47 448.31 0)
 			(effects
 				(font
@@ -29602,7 +29545,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 626.11 463.55 0)
 			(effects
 				(font
@@ -29611,7 +29554,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 626.11 463.55 0)
 			(effects
 				(font
@@ -29669,7 +29612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8539ARZ-REEL7_C154930.pdf"
 			(at 746.76 49.53 0)
 			(effects
 				(font
@@ -29686,7 +29629,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C154930"
 			(at 746.76 49.53 0)
 			(effects
 				(font
@@ -29695,7 +29638,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "AD8539ARZ-REEL7"
 			(at 746.76 49.53 0)
 			(effects
 				(font
@@ -29788,7 +29731,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C31850"
 			(at 708.66 123.19 0)
 			(effects
 				(font
@@ -29797,7 +29740,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF2202T5E"
 			(at 708.66 123.19 0)
 			(effects
 				(font
@@ -29936,7 +29879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22977"
 			(at 491.49 48.26 0)
 			(effects
 				(font
@@ -29945,7 +29888,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF200KT5E"
 			(at 491.49 48.26 0)
 			(effects
 				(font
@@ -30020,7 +29963,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 259.08 307.34 0)
 			(effects
 				(font
@@ -30029,7 +29972,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 259.08 307.34 0)
 			(effects
 				(font
@@ -30104,7 +30047,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C285099"
 			(at 113.03 304.8 0)
 			(effects
 				(font
@@ -30113,7 +30056,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603B103K250NT"
 			(at 113.03 304.8 0)
 			(effects
 				(font
@@ -30251,7 +30194,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1779"
 			(at 468.63 31.75 0)
 			(effects
 				(font
@@ -30260,7 +30203,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CL21A475KAQNNNE"
 			(at 468.63 31.75 0)
 			(effects
 				(font
@@ -30335,7 +30278,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22977"
 			(at 482.6 104.14 0)
 			(effects
 				(font
@@ -30344,7 +30287,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF200KT5E"
 			(at 482.6 104.14 0)
 			(effects
 				(font
@@ -30485,7 +30428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031228_Infineon-Technologies-IPT010N08NM5ATMA1_C3288766.pdf"
 			(at 506.73 57.15 0)
 			(effects
 				(font
@@ -30502,7 +30445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3288766"
 			(at 506.73 57.15 0)
 			(effects
 				(font
@@ -30511,7 +30454,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "IPT010N08NM5ATMA1"
 			(at 506.73 57.15 0)
 			(effects
 				(font
@@ -30653,7 +30596,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 293.37 147.32 0)
 			(effects
 				(font
@@ -30662,7 +30605,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 293.37 147.32 0)
 			(effects
 				(font
@@ -30864,7 +30807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 154.94 236.22 0)
 			(effects
 				(font
@@ -30873,7 +30816,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1002T5E"
 			(at 154.94 236.22 0)
 			(effects
 				(font
@@ -31012,7 +30955,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 295.91 294.64 0)
 			(effects
 				(font
@@ -31021,7 +30964,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 295.91 294.64 0)
 			(effects
 				(font
@@ -31096,7 +31039,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 95.25 264.16 0)
 			(effects
 				(font
@@ -31105,7 +31048,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1002T5E"
 			(at 95.25 264.16 0)
 			(effects
 				(font
@@ -31180,7 +31123,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23178"
 			(at 726.44 109.22 0)
 			(effects
 				(font
@@ -31189,7 +31132,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF4703T5E"
 			(at 726.44 109.22 0)
 			(effects
 				(font
@@ -31264,7 +31207,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22977"
 			(at 491.49 99.06 0)
 			(effects
 				(font
@@ -31273,7 +31216,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF200KT5E"
 			(at 491.49 99.06 0)
 			(effects
 				(font
@@ -31474,7 +31417,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 257.81 147.32 0)
 			(effects
 				(font
@@ -31483,7 +31426,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 257.81 147.32 0)
 			(effects
 				(font
@@ -31558,7 +31501,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 285.75 261.62 0)
 			(effects
 				(font
@@ -31567,7 +31510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 285.75 261.62 0)
 			(effects
 				(font
@@ -31689,7 +31632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404031228_Infineon-Technologies-IPT010N08NM5ATMA1_C3288766.pdf"
 			(at 506.73 148.59 0)
 			(effects
 				(font
@@ -31706,7 +31649,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C3288766"
 			(at 506.73 148.59 0)
 			(effects
 				(font
@@ -31715,7 +31658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "IPT010N08NM5ATMA1"
 			(at 506.73 148.59 0)
 			(effects
 				(font
@@ -31793,7 +31736,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 148.59 320.04 0)
 			(effects
 				(font
@@ -31802,7 +31745,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 148.59 320.04 0)
 			(effects
 				(font
@@ -31821,6 +31764,100 @@
 			(project "sm"
 				(path "/5e26f38c-e19f-40c5-b740-c884403cb704"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Shunt")
+		(at 557.53 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9eeb750-6745-448c-93fa-5f3591efd768")
+		(property "Reference" "R43"
+			(at 554.99 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.0005 1%"
+			(at 554.99 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
+			(at 555.752 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 557.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 557.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C469426"
+			(at 557.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR PT" "ASR-M-3-0.5F"
+			(at 557.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df14d6c-1c7d-44e4-a357-b737170df103")
+		)
+		(pin "4"
+			(uuid "a7b4031f-d791-4194-b876-7111d59d9056")
+		)
+		(pin "2"
+			(uuid "d8a795f8-85b5-4b17-ab31-188e2436c691")
+		)
+		(pin "3"
+			(uuid "58810762-d9f0-4907-9c18-150abd2a661b")
+		)
+		(instances
+			(project "sm"
+				(path "/5e26f38c-e19f-40c5-b740-c884403cb704"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -31924,7 +31961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8539ARZ-REEL7_C154930.pdf"
 			(at 746.76 152.4 0)
 			(effects
 				(font
@@ -31941,7 +31978,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C154930"
 			(at 746.76 152.4 0)
 			(effects
 				(font
@@ -31950,7 +31987,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "AD8539ARZ-REEL7"
 			(at 746.76 152.4 0)
 			(effects
 				(font
@@ -32043,7 +32080,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5189825"
 			(at 187.96 46.99 0)
 			(effects
 				(font
@@ -32052,7 +32089,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CS3225X7R476K100NRL"
 			(at 187.96 46.99 0)
 			(effects
 				(font
@@ -32127,7 +32164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23178"
 			(at 726.44 143.51 0)
 			(effects
 				(font
@@ -32136,7 +32173,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF4703T5E"
 			(at 726.44 143.51 0)
 			(effects
 				(font
@@ -32211,7 +32248,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 234.95 287.02 0)
 			(effects
 				(font
@@ -32220,7 +32257,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 234.95 287.02 0)
 			(effects
 				(font
@@ -32295,7 +32332,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C92762"
 			(at 257.81 45.72 0)
 			(effects
 				(font
@@ -32304,7 +32341,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "EMK212B7475KG-T"
 			(at 257.81 45.72 0)
 			(effects
 				(font
@@ -32506,7 +32543,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5251182"
 			(at 668.02 363.22 0)
 			(effects
 				(font
@@ -32515,7 +32552,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "B2B-PH-K-S-GW"
 			(at 668.02 363.22 0)
 			(effects
 				(font
@@ -32718,7 +32755,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4502"
 			(at 683.26 454.66 0)
 			(effects
 				(font
@@ -32727,7 +32764,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "1206W4F4700T5E"
 			(at 683.26 454.66 0)
 			(effects
 				(font
@@ -32802,7 +32839,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 95.25 304.8 0)
 			(effects
 				(font
@@ -32811,7 +32848,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 95.25 304.8 0)
 			(effects
 				(font
@@ -33077,7 +33114,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 234.95 279.4 0)
 			(effects
 				(font
@@ -33086,7 +33123,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 234.95 279.4 0)
 			(effects
 				(font
@@ -33161,7 +33198,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 102.87 271.78 0)
 			(effects
 				(font
@@ -33170,7 +33207,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 102.87 271.78 0)
 			(effects
 				(font
@@ -33245,7 +33282,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C109001"
 			(at 657.86 344.17 0)
 			(effects
 				(font
@@ -33254,7 +33291,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CD4148WSP"
 			(at 657.86 344.17 0)
 			(effects
 				(font
@@ -33312,7 +33349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Analog-Devices-AD8539ARZ-REEL7_C154930.pdf"
 			(at 746.76 118.11 0)
 			(effects
 				(font
@@ -33329,7 +33366,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C154930"
 			(at 746.76 118.11 0)
 			(effects
 				(font
@@ -33338,7 +33375,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "AD8539ARZ-REEL7"
 			(at 746.76 118.11 0)
 			(effects
 				(font
@@ -33431,7 +33468,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 116.84 359.41 0)
 			(effects
 				(font
@@ -33440,7 +33477,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 116.84 359.41 0)
 			(effects
 				(font
@@ -33643,7 +33680,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 580.39 92.71 0)
 			(effects
 				(font
@@ -33652,7 +33689,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 580.39 92.71 0)
 			(effects
 				(font
@@ -33727,7 +33764,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C163508"
 			(at 717.55 123.19 0)
 			(effects
 				(font
@@ -33736,7 +33773,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CL10C102JB8NNNC"
 			(at 717.55 123.19 0)
 			(effects
 				(font
@@ -33811,7 +33848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 436.88 472.44 0)
 			(effects
 				(font
@@ -33820,7 +33857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1002T5E"
 			(at 436.88 472.44 0)
 			(effects
 				(font
@@ -33968,7 +34005,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6120033"
 			(at 488.95 205.74 0)
 			(effects
 				(font
@@ -33977,7 +34014,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CGA1210X7R475K101RT"
 			(at 488.95 205.74 0)
 			(effects
 				(font
@@ -34099,7 +34136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001181534_Texas-Instruments-UCC27211AQDDARQ1_C485921.pdf"
 			(at 453.39 153.67 0)
 			(effects
 				(font
@@ -34116,7 +34153,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C485921"
 			(at 453.39 153.67 0)
 			(effects
 				(font
@@ -34125,7 +34162,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "UCC27211AQDDARQ1"
 			(at 453.39 153.67 0)
 			(effects
 				(font
@@ -34281,7 +34318,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C9002"
 			(at 125.73 232.41 0)
 			(effects
 				(font
@@ -34290,7 +34327,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "X322512MSB4SI"
 			(at 125.73 232.41 0)
 			(effects
 				(font
@@ -34365,7 +34402,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 246.38 281.94 0)
 			(effects
 				(font
@@ -34374,7 +34411,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF3300T5E"
 			(at 246.38 281.94 0)
 			(effects
 				(font
@@ -34449,7 +34486,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 327.66 298.45 0)
 			(effects
 				(font
@@ -34458,7 +34495,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 327.66 298.45 0)
 			(effects
 				(font
@@ -34533,7 +34570,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 318.77 257.81 0)
 			(effects
 				(font
@@ -34542,7 +34579,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" " 0603WAF1001T5E"
 			(at 318.77 257.81 0)
 			(effects
 				(font
@@ -34664,7 +34701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001181534_Texas-Instruments-UCC27211AQDDARQ1_C485921.pdf"
 			(at 453.39 100.33 0)
 			(effects
 				(font
@@ -34681,7 +34718,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C485921"
 			(at 453.39 100.33 0)
 			(effects
 				(font
@@ -34690,7 +34727,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "UCC27211AQDDARQ1"
 			(at 453.39 100.33 0)
 			(effects
 				(font
@@ -34783,7 +34820,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23178"
 			(at 701.04 46.99 0)
 			(effects
 				(font
@@ -34792,7 +34829,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF4703T5E"
 			(at 701.04 46.99 0)
 			(effects
 				(font
@@ -34931,7 +34968,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 222.25 341.63 0)
 			(effects
 				(font
@@ -34940,7 +34977,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "0603WAF1002T5E"
 			(at 222.25 341.63 0)
 			(effects
 				(font
@@ -35015,7 +35052,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C153036"
 			(at 57.15 46.99 0)
 			(effects
 				(font
@@ -35024,7 +35061,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "FS32X225K101EGG"
 			(at 57.15 46.99 0)
 			(effects
 				(font
@@ -35099,7 +35136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C163508"
 			(at 717.55 54.61 0)
 			(effects
 				(font
@@ -35108,7 +35145,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CL10C102JB8NNNC"
 			(at 717.55 54.61 0)
 			(effects
 				(font
@@ -35166,7 +35203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810312320_Texas-Instruments-TPS73633DBVR_C28038.pdf"
 			(at 276.86 43.18 0)
 			(effects
 				(font
@@ -35183,7 +35220,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28038"
 			(at 276.86 43.18 0)
 			(effects
 				(font
@@ -35192,7 +35229,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "TPS73633DBVR"
 			(at 276.86 43.18 0)
 			(effects
 				(font
@@ -35276,7 +35313,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519981"
 			(at 468.63 40.64 0)
 			(effects
 				(font
@@ -35285,7 +35322,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR PT" ""
+		(property "MFR PT" "CC0805KRX7R8BB104 "
 			(at 468.63 40.64 0)
 			(effects
 				(font
