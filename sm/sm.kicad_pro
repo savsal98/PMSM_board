@@ -503,7 +503,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "sm.net",
-      "plot": "",
+      "plot": "../../../Order/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
